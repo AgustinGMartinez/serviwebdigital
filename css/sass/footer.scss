@@ -1,0 +1,47 @@
+.suprafooter {
+  font-size: 150%;
+}
+
+.suprafooter .container {
+  width: 100% !important;
+}
+
+footer *, footer a:visited {
+  color: $white !important;
+}
+
+footer a:hover {
+  color: $pink !important;
+}
+
+footer {
+  padding: 40px 0 5px;
+}
+
+div.footer-copyright p {
+  color: #666 !important;
+
+  span:first-of-type {
+    color: #666 !important;
+  }
+}
+
+.unique-color-dark {
+  background-color: $black !important
+}
+
+.deep-purple.accent-2 {
+  background-color: $pink !important;
+}
+
+.fa-instagram:hover::before {
+  color: #e4405f;
+}
+
+.fa-facebook:hover::before {
+  color: #3b5999;
+}
+
+.fa-whatsapp:hover::before {
+  color: #25D366;
+}

@@ -1,0 +1,57 @@
+.fa-home::before {
+  content: "\f015";
+  font-family: "FontAwesome";
+  color: $white;
+  font-size: 18px;
+}
+.fa-envelope::before {
+  content: "\f0e0";
+  font-family: "FontAwesome";
+  color: $white;
+  font-size: 18px;
+}
+
+.fa-phone::before {
+  content: "\f10b";
+  font-family: "FontAwesome";
+  color: $white;
+  font-size: 30px;
+}
+
+.fa-instagram::before {
+  content: "\f16d";
+  font-family: "FontAwesome";
+}
+
+
+.fa-facebook::before {
+  content: "\f082";
+  font-family: "FontAwesome";
+}
+
+
+.fa-whatsapp::before {
+  content: "\f232";
+  font-family: "FontAwesome";
+}
+
+
+.fa-heart::before {
+  content: "\f004";
+  font-family: "FontAwesome";
+}
+
+.fa-arrow-down::before {
+  content: "\f107";
+  font-family: "FontAwesome";
+}
+
+.services-list li::after {
+  content: "\f105";
+  font-family: "FontAwesome";
+}
+
+.fa-arrow-right::after {
+  content: "\f105";
+  font-family: "FontAwesome";
+}
