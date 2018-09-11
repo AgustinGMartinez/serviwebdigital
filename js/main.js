@@ -2,7 +2,6 @@ $(document).ready(function(){
 $('#preloader').hide();
 $('.wrapper').fadeIn();
 $('header').fadeIn();
-$('.shrinkedMenu').hide();
 
 //menu panel handler
 $('.menu-panel-dropdown').on('mouseenter', function() {
@@ -80,8 +79,9 @@ $("html").easeScroll({
     arrowScroll: 50,
     touchpadSupport: true,
     fixedBackground: true
-  });
-  // carrousel init
+});
+// carrousel init
+if (typeof slick != 'undefined') {
   $('#carousel').slick({
     infinite: true,
     slidesToShow: 3,
@@ -90,23 +90,24 @@ $("html").easeScroll({
     autoplaySpeed: 2000,
     centerMode: true,
     responsive: [
-  {
-    breakpoint: 800,
-    settings: {
-      slidesToShow: 2,
-      slidesToScroll: 2
+    {
+      breakpoint: 800,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }
-  },
-  {
-    breakpoint: 480,
-    settings: {
-      slidesToShow: 1,
-      slidesToScroll: 1
-    }
-  }
-  // You can unslick at a given breakpoint now by adding:
-  // settings: "unslick"
-  // instead of a settings object
-]
-});
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+  });
+}
 });

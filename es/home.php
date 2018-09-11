@@ -1,4 +1,8 @@
-<?php $isHome = true; ?>
+<?php
+$isHome = true;
+$title = "Serviweb Digital | Tu garantía en la web";
+$desc = ""; #pending
+?>
 <?php require('header.php'); ?>
   <main class="home">
 

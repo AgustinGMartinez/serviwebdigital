@@ -1,3 +1,4 @@
+// CONTACT FORM HANDLER
 function submitContactForm(e) {
   e.preventDefault();
   if (grecaptcha.getResponse().length < 1) {
@@ -57,6 +58,7 @@ function submitContactForm(e) {
   }
 }
 
+// ADD ACTIVE CLASS TO CURRENT PAGE LINKS
 function activateLinks() {
   if (typeof pageName !== "undefined") {
     $('nav a[href=\'' + pageName + '\']').addClass("active");
@@ -64,9 +66,8 @@ function activateLinks() {
   }
 }
 
-
+// FOR SCROLL EVENT ONLY
 function navExpansion() {
-  var state = "expanded";
 
   function shrink() {
     $('.reg-nav').addClass('shrink');
@@ -75,23 +76,22 @@ function navExpansion() {
     $('.menu').hide();
     $('.shrinkedMenu').show();
     $('.nav-icon3').removeClass("open");
-
-    this.state = "shrinked";
   }
+
   function expand() {
     $('.reg-nav').removeClass('shrink');
     $('.fake-nav').removeClass('shrink');
     $('.wrapper').removeClass('expand');
     $('.menu').show();
     $('.shrinkedMenu').hide();
-
-    this.state = "expanded";
   }
 
-  if ($(document).scrollTop() > 200) shrink();
-  else expand();
+  // expand if page is home and we are in top section, else shrink when scrolling
+  if ($(document).scrollTop() < 200 && typeof pageName !== 'undefined' && pageName == "home.php") expand();
+  else shrink();
 }
 
+// FOR MANUAL USE
 function navExpansionForced() {
   function shrink() {
     $('.reg-nav').addClass('shrink');
@@ -113,47 +113,50 @@ function navExpansionForced() {
   else shrink();
 }
 
-var TxtType = function(el, toRotate, period) {
-        this.toRotate = toRotate;
-        this.el = el;
-        this.loopNum = 0;
-        this.period = parseInt(period, 10) || 2000;
-        this.txt = '';
-        this.tick();
-        this.isDeleting = false;
-    };
+// TYPEWRITTER, UNUSED FOR NOW
 
-    TxtType.prototype.tick = function() {
-        var i = this.loopNum % this.toRotate.length;
-        var fullTxt = this.toRotate[i];
+// var TxtType = function(el, toRotate, period) {
+//   this.toRotate = toRotate;
+//   this.el = el;
+//   this.loopNum = 0;
+//   this.period = parseInt(period, 10) || 2000;
+//   this.txt = '';
+//   this.tick();
+//   this.isDeleting = false;
+// };
+//
+// TxtType.prototype.tick = function() {
+//   var i = this.loopNum % this.toRotate.length;
+//   var fullTxt = this.toRotate[i];
+//
+//   if (this.isDeleting) {
+//   this.txt = fullTxt.substring(0, this.txt.length - 1);
+//   } else {
+//   this.txt = fullTxt.substring(0, this.txt.length + 1);
+//   }
+//
+//   this.el.innerHTML = this.txt;
+//
+//   var that = this;
+//   var delta = 200 - Math.random() * 100;
+//
+//   if (this.isDeleting) { delta /= 2; }
+//
+//   if (!this.isDeleting && this.txt === fullTxt) {
+//   delta = this.period;
+//   this.isDeleting = true;
+//   } else if (this.isDeleting && this.txt === '') {
+//   this.isDeleting = false;
+//   this.loopNum++;
+//   delta = 500;
+//   }
+//
+//   setTimeout(function() {
+//   that.tick();
+//   }, delta);
+// };
 
-        if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-        } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
-        }
-
-        this.el.innerHTML = this.txt;
-
-        var that = this;
-        var delta = 200 - Math.random() * 100;
-
-        if (this.isDeleting) { delta /= 2; }
-
-        if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-        } else if (this.isDeleting && this.txt === '') {
-        this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-        }
-
-        setTimeout(function() {
-        that.tick();
-        }, delta);
-    };
-
+// MENU WITH SERVICES
 function triggerMenuPanel(){
 
   var position = $(window).scrollTop();

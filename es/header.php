@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-  <title>Serviweb Digital | Tu garantía en la web</title>
+  <title><?php echo $title; ?></title>
   <link rel="icon" href="../ico.ico" type="image/x-icon">
   <!-- METAS -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="<?php echo $desc; ?>">
   <!-- CSS -->
   <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css"  media="screen,projection"/>
   <link rel="stylesheet" href="../css/main.css" type="text/css">
+  <?php if (isset($can)): ?>
+    <link rel="canonical" href="<?php echo $can; ?>"/>
+  <?php endif; ?>
   <?php if (isset($isHome)) : ?>
     <link rel="stylesheet" type="text/css" href="../vendor/slick/slick.css">
     <link rel="stylesheet" type="text/css" href="../vendor/slick/slick-theme.css">
@@ -19,6 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
     <link rel="stylesheet" type="text/css" href="../vendor/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" type="text/css" href="../vendor/css/util.css">
+    <link rel="canonical" href="http://localhost/proyectos/serviwebdigital/es/home.php"/>
   <?php endif; ?>
   <!-- Scripts -->
   <script async defer src='https://www.google.com/recaptcha/api.js'></script>
@@ -29,13 +34,13 @@
   <img src="../img/loader.gif" alt="page loader gif" width="70px">
 </div>
 
-<div class="fake-nav"></div>
+<div class="fake-nav <?php if (!isset($isHome)) echo "shrink"; ?>"></div>
 
 <header>
-  <nav class="navbar-light nav flex-column reg-nav">
+  <nav class="navbar-light nav flex-column reg-nav <?php if (!isset($isHome)) echo "shrink"; ?>">
     <div class="container my-nav-wrapper d-flex">
         <a class="navbar-brand brand" href="home.php"><img src="../img/logo.jpg" alt="Logo Serviweb Digital"></a>
-      <div class="menu">
+      <div class="menu" <?php if (!isset($isHome)) echo "style='display: none'"; ?>>
         <div class="">
             <a href="home.php" class="hover-effect">Home</a>
         </div>
@@ -49,7 +54,7 @@
             <a href="home.php#contact" class="hover-effect">Contacto</a>
         </div>
       </div>
-      <div class="shrinkedMenu">
+      <div class="shrinkedMenu" <?php if (isset($isHome)) echo "style='display: none'"; ?>>
         <div id="nav-icon3" class="nav-icon3">
           <span></span>
           <span></span>
@@ -77,7 +82,7 @@
   </nav>
 </header>
 
-<div class="wrapper">
+<div class="wrapper <?php if (!isset($isHome)) echo "expand"; ?>">
 
   <div class="menu-panel">
     <div class="panel-container">
@@ -139,8 +144,8 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
           <h4>Lo que ofrecemos</h4>
           <ul>
-            <li><a href="">Google Marketing</a></li>
-            <li><a href="">Social media</a></li>
+            <li><a href="">Google Adwords</a></li>
+            <li><a href="">Redes sociales</a></li>
             <li><a href="">Email Marketing</a></li>
             <li><a href="">Google Mi Negocio</a></li>
           </ul>
