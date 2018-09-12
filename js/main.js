@@ -81,7 +81,7 @@ $("html").easeScroll({
     fixedBackground: true
 });
 // carrousel init
-if (typeof slick != 'undefined') {
+if (typeof $('#carousel').slick != 'undefined') {
   $('#carousel').slick({
     infinite: true,
     slidesToShow: 3,

@@ -23,6 +23,14 @@
       top: 40%;
       left: 50%;
       transform: translateX(-50%);
+
+      h1 {
+        font-size: 2.8em;
+
+        @include mdScreens {
+          font-size: 2.5em;
+        }
+      }
     }
   }
 
@@ -83,8 +91,13 @@
   .features {
     padding: 4em 0 5em;
 
+    .feature {
+      margin-bottom: 2em;
+    }
+
     img {
-      width: 80px;
+      width: 60px;
+      filter: grayscale(1);
     }
 
     h3 {

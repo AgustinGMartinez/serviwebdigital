@@ -142,7 +142,7 @@
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../js/functions.js"></script>
 <?php if (isset($isHome)) : ?>
-<script src="../vendor/slick/slick.min.js"></script>
+  <script src="../vendor/slick/slick.min.js"></script>
 <?php endif; ?>
 <script src="../js/jquery.easeScroll.js"></script>
 <script type="text/javascript" src="../js/main.js"></script>

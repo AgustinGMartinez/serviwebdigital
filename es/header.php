@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
     <link rel="stylesheet" type="text/css" href="../vendor/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" type="text/css" href="../vendor/css/util.css">
-    <link rel="canonical" href="http://localhost/proyectos/serviwebdigital/es/home.php"/>
+    <link rel="canonical" href="http://localhost/proyectos/serviwebdigital/es/home"/>
   <?php endif; ?>
   <!-- Scripts -->
   <script async defer src='https://www.google.com/recaptcha/api.js'></script>
@@ -39,19 +39,19 @@
 <header>
   <nav class="navbar-light nav flex-column reg-nav <?php if (!isset($isHome)) echo "shrink"; ?>">
     <div class="container my-nav-wrapper d-flex">
-        <a class="navbar-brand brand" href="home.php"><img src="../img/logo.jpg" alt="Logo Serviweb Digital"></a>
+        <a class="navbar-brand brand" href="home"><img src="../img/logo.jpg" alt="Logo Serviweb Digital"></a>
       <div class="menu" <?php if (!isset($isHome)) echo "style='display: none'"; ?>>
         <div class="">
-            <a href="home.php" class="hover-effect">Home</a>
+            <a href="home" class="hover-effect">Home</a>
         </div>
         <div class="servicies-link">
-            <a href="javascript:void(0)" class="hover-effect menu-panel-dropdown">Servicios</a>
+            <a href="servicio" class="hover-effect menu-panel-dropdown">Servicios</a>
         </div>
         <div class="">
             <a href="javascript:void(0)" class="hover-effect">Precios</a>
         </div>
         <div class="">
-            <a href="home.php#contact" class="hover-effect">Contacto</a>
+            <a href="home#contact" class="hover-effect">Contacto</a>
         </div>
       </div>
       <div class="shrinkedMenu" <?php if (isset($isHome)) echo "style='display: none'"; ?>>
@@ -184,13 +184,13 @@
         <span></span>
       </div>
     </button>
-    <a class="navbar-brand brand ml-auto" href="home.php"><img src="../img/logo.jpg" alt="Logo Serviweb Digital"></a>
+    <a class="navbar-brand brand ml-auto" href="home"><img src="../img/logo.jpg" alt="Logo Serviweb Digital"></a>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <div class="container my-nav-wrapper d-flex nav-container-mobile">
         <div class="menu-mobile">
           <div class="">
-              <a href="home.php" class="hover-effect">Home</a>
+              <a href="home" class="hover-effect">Home</a>
           </div>
           <div class="mobile-services-menu">
               <a class="hover-effect">Servicios <span class="fa-arrow-right"></span></a>
