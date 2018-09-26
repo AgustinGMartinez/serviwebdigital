@@ -149,5 +149,41 @@ $featuresProps = array(
     "imgAlt" => "Caracteristicas desarrollo diseño personalizado",
     "title" => "Asesoramiento técnico",
     "desc" => "Nuestros expertos y programadores se encargarán de asesorarte en tus ideas y conceptos."
+  ),
+  "crecimiento" => array(
+    "img" => "crecimiento-icon.png",
+    "imgAlt" => "Visitas en crecimiento exponencial",
+    "title" => "Crecimiento garantizado",
+    "desc" => "Mirá como crecen las visitas a tu página al tiempo que se traducen a mayor conversión en ventas y mejor posicionamiento natural en google."
+  ),
+  "despreocupate" => array(
+    "img" => "relajate-icon.png",
+    "imgAlt" => "Asistencia ayuda",
+    "title" => "Despreocupate",
+    "desc" => "Nosotros hacemos todo por vos."
+  ),
+  "conexion" => array(
+    "img" => "conexion-icon.png",
+    "imgAlt" => "Llegas a tus clientes",
+    "title" => "Conectá con tus clientes",
+    "desc" => "Establecé un vínculo directo con tus clientes."
+  ),
+  "economico" => array(
+    "img" => "economico-icon.png",
+    "imgAlt" => "Ahorrás en gastos",
+    "title" => "Ahorrá en gastos",
+    "desc" => "Una de las formas más baratas de llegar a tus clientes."
+  ),
+  "eficiente" => array(
+    "img" => "eficiente-icon.png",
+    "imgAlt" => "Efectivo plan de marketing",
+    "title" => "Eficiente",
+    "desc" => "Alcanzá de manera directa y veloz a aquellos que ya sabes que están interesados."
+  ),
+  "destacate" => array(
+    "img" => "destacate-icon.png",
+    "imgAlt" => "Efectivo plan de marketing con google mi negocio",
+    "title" => "Destacate",
+    "desc" => "Esta herramienta poco usada pero súper efectiva hace que necesariamente te destaques sobre la competencia."
   )
 );

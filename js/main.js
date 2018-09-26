@@ -2,17 +2,41 @@ $(document).ready(function(){
 $('#preloader').hide();
 $('.wrapper').fadeIn();
 $('header').fadeIn();
+if (typeof AOS !== 'undefined') AOS.init();
+$('.portfolio-info').each(function(){
+  var attr = $(this).attr('data-direction');
+  var translate;
+  switch (attr) {
+    case 'l':
+        translate = 'translateX(-100%)'
+      break;
+    case 'r':
+        translate = 'translateX(100%)'
+      break;
+    case 'u':
+        translate = 'translateY(-100%)'
+      break;
+    case 'd':
+        translate = 'translateY(100%)'
+      break;
+    default:
+      console.error('invalid portafolio direction');
+  }
+  $(this).css('transform', translate);
+});
 
 //menu panel handler
 $('.menu-panel-dropdown').on('mouseenter', function() {
+  closeMenuProperly();
   $(this).addClass('bigger');
+  var att = $(this).attr('data-panel-trigger');
   // show panel and make it hide when mouse leaves it
-  triggerMenuPanel();
+  triggerMenuPanel(att);
 });
 
 // menu panel services handler
 $('.service-dropdown').on('mouseenter', function() {
-  var target = ".menu-panel .service" + $(this).attr('dtarget');
+  var target = ".menu-panel .service-" + $(this).attr('data-dtarget');
   // show panel and make it hide when mouse leaves it
   $(target).show().on('mouseleave', function() {
     $(target).hide();
@@ -28,11 +52,12 @@ $('.service-dropdown').on('mouseenter', function() {
 
 // mobile menu handler
 $('.mobile-services-menu').on('click', function() {
-  $(this).find('.fa-arrow-right').addClass('arrow-clock-90-rotation');
+  // $(this).find('.fa-arrow-right').addClass('arrow-clock-90-rotation');
   $(this).siblings().hide();
-  $(this).parent().addClass('animated');
-  $(this).children().addClass('animated');
-  triggerMenuPanel();
+  // $(this).parent().addClass('animated');
+  // $(this).children().addClass('animated');
+  var attr = $(this).attr('data-target')
+  triggerMenuPanel(attr);
 });
 
 //unused for now
@@ -64,7 +89,10 @@ $('.nav-icon3').on("click", navExpansionForced);
 //form Handler
 $('#submitContactForm').on("click", submitContactForm);
 // nav animation on scroll
-$(window).scroll(navExpansion);
+window.setTimeout(attachWindowScrollEvent, 5000);
+function attachWindowScrollEvent() {
+  $(window).scroll(navExpansion);
+}
 // general scroll smoother
 $("html").easeScroll({
     frameRate: 60,
@@ -107,7 +135,6 @@ if (typeof $('#carousel').slick != 'undefined') {
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
     // instead of a settings object
-  ]
-  });
-}
+    ]});
+  }
 });

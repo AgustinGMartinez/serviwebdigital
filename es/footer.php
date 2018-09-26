@@ -18,11 +18,11 @@
                <span class="fab fa-facebook white-text mr-4"> </span>
              </a>
              <!--Instagram-->
-             <a class="ins-ic" href="">
+             <a class="ins-ic" href="https://www.instagram.com/serviwebdigital/">
                <span class="fab fa-instagram white-text mr-4"> </span>
              </a>
              <!-- whatsapp -->
-             <a class="li-ic" href="">
+             <a class="li-ic" href="https://api.whatsapp.com/send?phone=541122895591">
                <span class="fab fa-whatsapp white-text"> </span>
              </a>
 
@@ -142,9 +142,10 @@
 <script type="text/javascript" src="../js/bootstrap.min.js"></script>
 <script type="text/javascript" src="../js/functions.js"></script>
 <?php if (isset($isHome)) : ?>
-  <script src="../vendor/slick/slick.min.js"></script>
+  <script src="../vendor/slick/slick.min.js" async defer></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async defer></script>
 <?php endif; ?>
-<script src="../js/jquery.easeScroll.js"></script>
+<script src="../js/jquery.easeScroll.js" async defer></script>
 <script type="text/javascript" src="../js/main.js"></script>
 
 <?php if (isset($ishome)) : ?>

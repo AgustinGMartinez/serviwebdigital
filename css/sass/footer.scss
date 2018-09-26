@@ -1,5 +1,9 @@
 .suprafooter {
   font-size: 150%;
+
+  h6 {
+    font-size: 1em;
+  }
 }
 
 .suprafooter .container {
@@ -11,7 +15,7 @@ footer *, footer a:visited {
 }
 
 footer a:hover {
-  color: $pink !important;
+  color: $main !important;
 }
 
 footer {
@@ -31,7 +35,7 @@ div.footer-copyright p {
 }
 
 .deep-purple.accent-2 {
-  background-color: $pink !important;
+  background-color: $main !important;
 }
 
 .fa-instagram:hover::before {

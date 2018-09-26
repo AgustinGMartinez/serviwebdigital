@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" href="../vendor/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" type="text/css" href="../vendor/css/util.css">
     <link rel="canonical" href="http://localhost/proyectos/serviwebdigital/es/home"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <?php endif; ?>
   <!-- Scripts -->
   <script async defer src='https://www.google.com/recaptcha/api.js'></script>
@@ -39,19 +40,25 @@
 <header>
   <nav class="navbar-light nav flex-column reg-nav <?php if (!isset($isHome)) echo "shrink"; ?>">
     <div class="container my-nav-wrapper d-flex">
-        <a class="navbar-brand brand" href="home"><img src="../img/logo.jpg" alt="Logo Serviweb Digital"></a>
+        <a class="navbar-brand brand" href="home"><img src="../img/SWD.svg" alt="Logo Serviweb Digital"></a>
       <div class="menu" <?php if (!isset($isHome)) echo "style='display: none'"; ?>>
         <div class="">
-            <a href="home" class="hover-effect">Home</a>
+            <a href="home" class="hover-effect not-menu">Home</a>
         </div>
         <div class="servicies-link">
-            <a href="servicio" class="hover-effect menu-panel-dropdown">Servicios</a>
+            <a href="servicio" class="hover-effect menu-panel-dropdown" data-panel-trigger="1">Diseño web</a>
+        </div>
+        <div class="servicies-link">
+            <a href="servicio" class="hover-effect menu-panel-dropdown" data-panel-trigger="2">Diseño gráfico</a>
+        </div>
+        <div class="servicies-link">
+            <a href="servicio" class="hover-effect menu-panel-dropdown" data-panel-trigger="3">Marketing</a>
+        </div>
+        <div class="servicies-link">
+            <a href="servicio" class="hover-effect menu-panel-dropdown" data-panel-trigger="4">Video y fotografía</a>
         </div>
         <div class="">
-            <a href="javascript:void(0)" class="hover-effect">Precios</a>
-        </div>
-        <div class="">
-            <a href="home#contact" class="hover-effect">Contacto</a>
+            <a href="home#contact" class="hover-effect not-menu">Contacto</a>
         </div>
       </div>
       <div class="shrinkedMenu" <?php if (isset($isHome)) echo "style='display: none'"; ?>>
@@ -70,11 +77,11 @@
           <span class="fab fa-facebook white-text mr-4"> </span>
         </a>
         <!--Instagram-->
-        <a class="ins-ic" href="">
+        <a class="ins-ic" href="https://www.instagram.com/serviwebdigital/">
           <span class="fab fa-instagram white-text mr-4"> </span>
         </a>
         <!-- whatsapp -->
-        <a class="li-ic" href="">
+        <a class="li-ic" href="https://api.whatsapp.com/send?phone=541122895591">
           <span class="fab fa-whatsapp white-text"> </span>
         </a>
       </div>
@@ -84,97 +91,352 @@
 
 <div class="wrapper <?php if (!isset($isHome)) echo "expand"; ?>">
 
-  <div class="menu-panel">
+  <div class="menu-panel menu-panel-1">
     <div class="panel-container">
-      <ul class="services-list">
-        <li class="service-dropdown" dtarget="1">Diseño web</li>
-        <li class="service-dropdown" dtarget="2">Diseño gráfico</li>
-        <li class="service-dropdown" dtarget="3">Marketing digital</li>
-        <li class="service-dropdown" dtarget="4">Video y fotografía</li>
-      </ul>
-      <div class="service1 service" style="display: none;">
+      <div class="services-list">
+        <a href="javascript:void(0)" class="service-dropdown close-mobile-menu"><span class="close-icon"></span></a>
+        <a href="servicio?s=plantillas" class="service-dropdown" data-dtarget="1-1">Diseño web con plantillas</a>
+        <a href="servicio?s=medida" class="service-dropdown" data-dtarget="1-2">Diseño web a medida</a>
+        <a href="servicio?s=tienda" class="service-dropdown" data-dtarget="1-3">Tienda online</a>
+        <a href="servicio?s=minisitios" class="service-dropdown" data-dtarget="1-4">Mini sitios</a>
+        <a href="servicio?s=aplicaciones" class="service-dropdown" data-dtarget="1-5">Aplicaciones web</a>
+        <a href="servicio?s=mantenimiento" class="service-dropdown" data-dtarget="1-6">Mantenimientos</a>
+      </div>
+      <div class="service-1-1 service">
         <div class="service-container">
           <button type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <h3>Diseño web</h3>
-          <hr>
+          <a href="servicio?s=plantillas">Diseño web con plantillas</a>
+
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
-          <h4>Lo que ofrecemos</h4>
-          <ul>
-            <li><a href="">Diseño web con plantillas</a></li>
-            <li><a href="">Diseño web a medida</a></li>
-            <li><a href="">Tienda online</a></li>
-            <li><a href="">Mini sitios</a></li>
-            <li><a href="">Aplicaciones web</a></li>
-            <li><a href="">Mantenimientos</a></li>
-          </ul>
+
+          <img src="../img/vector.jpg" alt="" class="background">
         </div>
       </div>
-      <div class="service2 service" style="display: none;">
+      <div class="service-1-2 service">
         <div class="service-container">
           <button type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <h3>Diseño gráfico</h3>
-          <hr>
+          <a href="servicio?s=medida">Diseño web a medida</a>
+
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
-          <h4>Lo que ofrecemos</h4>
-          <ul class="two-columns">
-            <li><a href="">Identidad corporatia</a></li>
-            <li><a href="">Logos</a></li>
-            <li><a href="">Sublimación y serigrafía</a></li>
-            <li><a href="">Diseño publicitario</a></li>
-            <li><a href="">Packaging</a></li>
-            <li><a href="">Catálogos</a></li>
-            <li><a href="">Tarjetas</a></li>
-            <li><a href="">Vinilos</a></li>
-            <li><a href="">Papelería</a></li>
-            <li><a href="">Diseño de Cartelería</a></li>
-          </ul>
         </div>
       </div>
-      <div class="service3 service" style="display: none;">
+      <div class="service-1-3 service">
         <div class="service-container">
           <button type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <h3>Marketing Digital</h3>
-          <hr>
+          <a href="servicio?s=tienda">Tienda online</a>
+
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
-          <h4>Lo que ofrecemos</h4>
-          <ul>
-            <li><a href="">Google Adwords</a></li>
-            <li><a href="">Redes sociales</a></li>
-            <li><a href="">Email Marketing</a></li>
-            <li><a href="">Google Mi Negocio</a></li>
-          </ul>
         </div>
       </div>
-      <div class="service4 service" style="display: none;">
+      <div class="service-1-4 service">
         <div class="service-container">
           <button type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <h3>Fotografía y video</h3>
-          <hr>
+          <a href="servicio?s=minisitios">Mini sitios</a>
+
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
-          <h4>Lo que ofrecemos</h4>
-          <ul>
-            <li><a href="">Fotografía de productos</a></li>
-            <li><a href="">Sesión fotográfica</a></li>
-            <li><a href="">Videos promocionales</a></li>
-            <li><a href="">Ilustración</a></li>
-            <li><a href="">Motion Graphics</a></li>
-            <li><a href="">Animación</a></li>
-          </ul>
+        </div>
+      </div>
+      <div class="service-1-5 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=aplicaciones">Aplicaciones web</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-1-6 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=mantenimiento">Mantenimientos</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-panel menu-panel-2">
+    <div class="panel-container">
+      <div class="services-list">
+        <a href="javascript:void(0)" class="service-dropdown close-mobile-menu"><span class="close-icon"></span></a>
+        <a href="servicio?s=identidad-corporativa" class="service-dropdown" data-dtarget="2-1">Identidad corporativa</a>
+        <a href="servicio?s=logos" class="service-dropdown" data-dtarget="2-2">Logos</a>
+        <a href="servicio?s=ploteos" class="service-dropdown" data-dtarget="2-3">Ploteos</a>
+        <a href="servicio?s=diseno-publicitario" class="service-dropdown" data-dtarget="2-4">Diseño publicitario</a>
+        <a href="servicio?s=lonas" class="service-dropdown" data-dtarget="2-5">Lonas</a>
+        <!-- href pending -->
+        <a href="servicio?s=catalogo" class="service-dropdown" data-dtarget="2-6">Catálogos</a>
+        <a href="servicio?s=tarjetas" class="service-dropdown" data-dtarget="2-7">Tarjetas</a>
+        <a href="servicio?s=vinilos" class="service-dropdown" data-dtarget="2-8">Vinilos</a>
+        <a href="servicio?s=papeleria" class="service-dropdown" data-dtarget="2-9">Papelería</a>
+        <a href="servicio?s=carteleria" class="service-dropdown" data-dtarget="2-10">Diseño de Cartelería</a>
+        <a href="servicio?s=decoracion-de-interiores" class="service-dropdown" data-dtarget="2-11">Decoración de interior de local</a>
+        <a href="servicio?s=folletos" class="service-dropdown" data-dtarget="2-12">Folletos</a>
+        <a href="servicio?s=ilustracion" class="service-dropdown" data-dtarget="2-13">Ilustración</a>
+        <a href="servicio?s=dibujos-estampado" class="service-dropdown" data-dtarget="2-14">Dibujos para estampado</a>
+      </div>
+      <div class="service-2-1 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=identidad-corporativa">Identidad corporativa</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-2 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=logos">Logos</a>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-3 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=ploteos">Ploteos</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-4 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=diseno-publicitario">Diseño publicitario</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-5 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=lonas">Lonas</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-6 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=catalogo">Catálogos</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-7 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=tarjetas">Tarjetas</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-8 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=vinilos">Vinilos</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-9 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=papeleria">Papelería</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-10 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=carteleria">Diseño de Cartelería</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-11 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=decoracion-de-interiores">Decoración de interior de local</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-12 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=folletos">Folletos</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-13 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=ilustracion">Ilustración</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-2-14 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=dibujos-estampado">Dibujos para estampado</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-panel menu-panel-3">
+    <div class="panel-container">
+      <div class="services-list">
+        <a href="javascript:void(0)" class="service-dropdown close-mobile-menu"><span class="close-icon"></span></a>
+        <a href="servicio?s=adwords" class="service-dropdown" data-dtarget="3-1">Google Adwords</a>
+        <a href="servicio?s=social" class="service-dropdown" data-dtarget="3-2">Redes sociales</a>
+        <a href="servicio?s=email" class="service-dropdown" data-dtarget="3-3">Email Marketing</a>
+        <a href="servicio?s=negocio" class="service-dropdown" data-dtarget="3-4">Google Mi Negocio</a>
+      </div>
+      <div class="service-3-1 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=adwords">Google Adwords</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-3-2 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=social">Redes sociales</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-3-3 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=email">Email Marketing</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-3-4 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=negocio">Google Mi Negocio</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-panel menu-panel-4">
+    <div class="panel-container">
+      <div class="services-list">
+        <a href="javascript:void(0)" class="service-dropdown close-mobile-menu"><span class="close-icon"></span></a>
+        <a href="servicio?s=fotografia-de-productos" class="service-dropdown" data-dtarget="4-1">Fotografía de productos</a>
+        <a href="servicio?s=sesion-fotografica" class="service-dropdown" data-dtarget="4-2">Sesión fotográfica</a>
+        <a href="servicio?s=videos-promocionales" class="service-dropdown" data-dtarget="4-3">Videos promocionales</a>
+        <a href="servicio?s=motion-graphics" class="service-dropdown" data-dtarget="4-5">Motion Graphics</a>
+      </div>
+      <div class="service-4-1 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=fotografia-de-productos">Fotografía de productos</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-4-2 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=sesion-fotografica">Sesión fotográfica</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-4-3 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=videos-promocionales">Videos promocionales</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-4-5 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=motion-graphics">Motion Graphics</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
         </div>
       </div>
     </div>
   </div>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light mobile-nav fixed-top">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+
+    <a class="navbar-brand brand mr-auto" href="home"><img src="../img/SWDpq.svg" alt="Logo Serviweb Digital"></a>
+
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <div id="nav-icon2">
         <span></span>
         <span></span>
@@ -184,7 +446,6 @@
         <span></span>
       </div>
     </button>
-    <a class="navbar-brand brand ml-auto" href="home"><img src="../img/logo.jpg" alt="Logo Serviweb Digital"></a>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
       <div class="container my-nav-wrapper d-flex nav-container-mobile">
@@ -192,11 +453,20 @@
           <div class="">
               <a href="home" class="hover-effect">Home</a>
           </div>
-          <div class="mobile-services-menu">
-              <a class="hover-effect">Servicios <span class="fa-arrow-right"></span></a>
+          <div class="mobile-services-menu" data-target="1">
+              <a class="hover-effect">Diseño web <span class="fa-arrow-right"></span></a>
+          </div>
+          <div class="mobile-services-menu" data-target="2">
+              <a class="hover-effect">Diseño gráfico <span class="fa-arrow-right"></span></a>
+          </div>
+          <div class="mobile-services-menu" data-target="3">
+              <a class="hover-effect">Marketing <span class="fa-arrow-right"></span></a>
+          </div>
+          <div class="mobile-services-menu" data-target="4">
+              <a class="hover-effect">Fotografía y video <span class="fa-arrow-right"></span></a>
           </div>
           <div class="">
-              <a href="javascript:void(0)" class="hover-effect">Precios</a>
+              <a href="javascript:void(0)" class="hover-effect">Portafolio</a>
           </div>
           <div class="">
               <a href="home#contact" class="hover-effect">Contacto</a>
@@ -208,14 +478,18 @@
             <span class="fab fa-facebook white-text mr-4"> </span>
           </a>
           <!--Instagram-->
-          <a class="ins-ic" href="">
+          <a class="ins-ic" href="https://www.instagram.com/serviwebdigital/">
             <span class="fab fa-instagram white-text mr-4"> </span>
           </a>
           <!-- whatsapp -->
-          <a class="li-ic" href="">
+          <a class="li-ic" href="https://api.whatsapp.com/send?phone=541122895591">
             <span class="fab fa-whatsapp white-text"> </span>
           </a>
         </div>
       </div>
     </div>
   </nav>
+
+  <div class="floating">
+    <button><span class="fab fa-whatsapp"></span><a href="https://api.whatsapp.com/send?phone=541122895591"></a></button>
+  </div>

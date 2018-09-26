@@ -82,8 +82,8 @@ function navExpansion() {
     $('.reg-nav').removeClass('shrink');
     $('.fake-nav').removeClass('shrink');
     $('.wrapper').removeClass('expand');
-    $('.menu').show();
     $('.shrinkedMenu').hide();
+    if($('.menu').is(':hidden')) $('.menu').fadeIn(1700);
   }
 
   // expand if page is home and we are in top section, else shrink when scrolling
@@ -105,7 +105,7 @@ function navExpansionForced() {
     $('.reg-nav').removeClass('shrink');
     $('.fake-nav').removeClass('shrink');
     $('.wrapper').removeClass('expand');
-    $('.menu').show();
+    $('.menu').fadeIn(1700);
     $('.shrinkedMenu').hide();
   }
 
@@ -156,29 +156,30 @@ function navExpansionForced() {
 //   }, delta);
 // };
 
+// CLOSE MENU AND ALL ITS SIDEEFFECTS
+function closeMenuProperly() {
+    $('.menu-panel-dropdown').removeClass('bigger');
+    $('.menu-panel').hide();
+    $('.service').hide();
+    $('.mobile-services-menu .fa-arrow-right').removeClass('arrow-clock-90-rotation');
+    if ($('#nav-icon2').hasClass('open')) {
+      $('#nav-icon2').click();
+    }
+    $('.mobile-services-menu').siblings().show();
+    $('.mobile-services-menu').parent().removeClass('animated');
+    $('.mobile-services-menu').children().removeClass('animated');
+}
+
 // MENU WITH SERVICES
-function triggerMenuPanel(){
+function triggerMenuPanel(id){
 
   var position = $(window).scrollTop();
 
-  function closeMenuProperly() {
-      $('.menu-panel-dropdown').removeClass('bigger');
-      $('.menu-panel').hide();
-      $('.service').hide();
-      $('.mobile-services-menu .fa-arrow-right').removeClass('arrow-clock-90-rotation');
-      if ($('#nav-icon2').hasClass('open')) {
-        $('#nav-icon2').click();
-      }
-      $('.mobile-services-menu').siblings().show();
-      $('.mobile-services-menu').parent().removeClass('animated');
-      $('.mobile-services-menu').children().removeClass('animated');
-  }
-
-  $('.menu-panel').show().on('mouseleave', function() {
+  $('.menu-panel-'+id).show().on('mouseleave', function() {
     closeMenuProperly();
   });
   // hide panel when mouse is over other menu options
-  $('.menu-panel-dropdown').parent().siblings().children().on('mouseenter', function() {
+  $('.not-menu').on('mouseenter', function() {
     closeMenuProperly();
   });
   // hide panel while scrolling
@@ -198,7 +199,6 @@ function triggerMenuPanel(){
     closeMenuProperly();
   })
 }
-
 
 // smooth scroll for anchor smooth scrolling
 $(function() {
