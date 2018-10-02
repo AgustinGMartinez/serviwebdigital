@@ -1,51 +1,142 @@
 .suprafooter {
-  font-size: 150%;
+  width: 100%;
+  height: 225px;
+  transform: translateY(50%);
+  margin-top: -113px;
+  position: relative;
+
+  @include smScreens {
+    margin-top: -9rem;
+    height: 18rem;
+  }
+
+  .background {
+    height: 100%;
+    width: calc(100vw - 250px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $main;
+
+    @include mdScreens {
+      width: 100%;
+    }
+  }
+
+  .container {
+    width: 80%;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+
+    .content {
+      padding-top: 3.5em;
+      position: relative;
+      height: 100%;
+
+      h4, h2, a {
+        color: #fff;
+      }
+
+      h4 {
+        font-weight: normal;
+        margin-bottom: 3rem;
+        font-family: "helvetica";
+        text-transform: uppercase;
+        font-size: 1em;
+
+        @include smScreens {
+          margin-bottom: 1rem;
+        }
+      }
+
+      h2 {
+        font-family: helvetica;
+        font-weight: bold;
+        font-size: 1.6em;
+        letter-spacing: 0.1em;
+      }
+
+      a {
+        position: absolute;
+        right: 4em;
+        top: 50%;
+        transform: translateY(-50%);
+        padding: 1em 3em;
+        border: #ddd solid 2px;
+        transition: all 0.2s linear;
+
+        @include mdScreens {
+          right: 0;
+          padding: 1em 1em;
+        }
+
+        @include smScreens {
+          position: static;
+          margin-top: 2rem;
+          text-align: center;
+          transform: translateY(0%);
+          top: 0;
+          right: 0;
+          display: block;
+        }
+
+        &:hover {
+          color: $main;
+          background: #fff;
+          border-color: #fff;
+          transition: all 0.2s linear;
+        }
+
+        span {
+          margin-right: 1.5em;
+          text-transform: uppercase;
+          font-size: 1.1em;
+
+          @include mdScreens {
+            margin-right: 0.3em;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/* CUIDADO, ESTA todo DESORDENADO (CREO)*/
+footer {
+  padding: 8em 0 5px;
+  background: $black;
+
+  @include smScreens {
+    padding: 8em 0 5px;
+  }
 
   h6 {
-    font-size: 1em;
+    letter-spacing: 3px !important;
   }
-}
 
-.suprafooter .container {
-  width: 100% !important;
-}
+  *, footer a:visited {
+    color: $white !important;
+  }
 
-footer *, footer a:visited {
-  color: $white !important;
-}
+  a:hover {
+    color: $main !important;
+  }
 
-footer a:hover {
-  color: $main !important;
-}
+  .unique-color-dark {
+    background-color: $black !important
+  }
 
-footer {
-  padding: 40px 0 5px;
-}
+  .deep-purple.accent-2 {
+    background-color: $main !important;
+  }
 
-div.footer-copyright p {
-  color: #666 !important;
-
-  span:first-of-type {
+  div.footer-copyright p {
     color: #666 !important;
+
+    span:first-of-type {
+      color: #666 !important;
+    }
   }
-}
-
-.unique-color-dark {
-  background-color: $black !important
-}
-
-.deep-purple.accent-2 {
-  background-color: $main !important;
-}
-
-.fa-instagram:hover::before {
-  color: #e4405f;
-}
-
-.fa-facebook:hover::before {
-  color: #3b5999;
-}
-
-.fa-whatsapp:hover::before {
-  color: #25D366;
 }

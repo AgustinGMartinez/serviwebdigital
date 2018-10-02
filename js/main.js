@@ -93,21 +93,7 @@ window.setTimeout(attachWindowScrollEvent, 5000);
 function attachWindowScrollEvent() {
   $(window).scroll(navExpansion);
 }
-// general scroll smoother
-$("html").easeScroll({
-    frameRate: 60,
-    animationTime: 700,
-    stepSize: 100,
-    pulseAlgorithm: 1,
-    pulseScale: 8,
-    pulseNormalize: 1,
-    accelerationDelta: 20,
-    accelerationMax: 1,
-    keyboardSupport: true,
-    arrowScroll: 50,
-    touchpadSupport: true,
-    fixedBackground: true
-});
+
 // carrousel init
 if (typeof $('#carousel').slick != 'undefined') {
   $('#carousel').slick({
@@ -129,7 +115,8 @@ if (typeof $('#carousel').slick != 'undefined') {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        centerMode: false
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -137,4 +124,19 @@ if (typeof $('#carousel').slick != 'undefined') {
     // instead of a settings object
     ]});
   }
+});
+// general scroll smoother
+$("html").easeScroll({
+    frameRate: 60,
+    animationTime: 700,
+    stepSize: 100,
+    pulseAlgorithm: 1,
+    pulseScale: 8,
+    pulseNormalize: 1,
+    accelerationDelta: 20,
+    accelerationMax: 1,
+    keyboardSupport: true,
+    arrowScroll: 50,
+    touchpadSupport: true,
+    fixedBackground: true
 });

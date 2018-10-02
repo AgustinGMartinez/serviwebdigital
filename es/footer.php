@@ -1,39 +1,14 @@
-     <div class="bg-secondary suprafooter">
-       <div class="container">
+ <div class="suprafooter">
+  <div class="background"></div>
+  <div class="container">
+    <div class="content">
+      <h4>¿Qué sigue?</h4>
+      <h2>Hablemos de tu proyecto</h2>
+      <a href="contacto" class="button"><span>Charlemos</span> &rarr;</a>
+    </div>
+  </div>
+ </div>
 
-         <!-- Grid row-->
-         <div class="row py-4 d-flex align-items-center">
-
-           <!-- Grid column -->
-           <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0 ml-4">
-             <h6 class="mb-0">¡ Conectate con nosotros en las redes sociales !</h6>
-           </div>
-           <!-- Grid column -->
-
-           <!-- Grid column -->
-           <div class="col-md-5 col-lg-6 text-center text-md-right ml-1">
-
-             <!-- Facebook -->
-             <a class="fb-ic" href="">
-               <span class="fab fa-facebook white-text mr-4"> </span>
-             </a>
-             <!--Instagram-->
-             <a class="ins-ic" href="https://www.instagram.com/serviwebdigital/">
-               <span class="fab fa-instagram white-text mr-4"> </span>
-             </a>
-             <!-- whatsapp -->
-             <a class="li-ic" href="https://api.whatsapp.com/send?phone=541122895591">
-               <span class="fab fa-whatsapp white-text"> </span>
-             </a>
-
-           </div>
-           <!-- Grid column -->
-
-         </div>
-         <!-- Grid row-->
-
-       </div>
-     </div>
 <footer class="page-footer font-small unique-color-dark">
 
   <!-- Footer Links -->
@@ -145,7 +120,7 @@
   <script src="../vendor/slick/slick.min.js" async defer></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async defer></script>
 <?php endif; ?>
-<script src="../js/jquery.easeScroll.js" async defer></script>
+<script src="../js/jquery.easeScroll.js"></script>
 <script type="text/javascript" src="../js/main.js"></script>
 
 <?php if (isset($ishome)) : ?>

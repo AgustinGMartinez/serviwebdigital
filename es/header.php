@@ -81,7 +81,7 @@
           <span class="fab fa-instagram white-text mr-4"> </span>
         </a>
         <!-- whatsapp -->
-        <a class="li-ic" href="https://api.whatsapp.com/send?phone=541122895591">
+        <a class="li-ic" href="https://api.whatsapp.com/send?phone=541122895991">
           <span class="fab fa-whatsapp white-text"> </span>
         </a>
       </div>
@@ -95,12 +95,13 @@
     <div class="panel-container">
       <div class="services-list">
         <a href="javascript:void(0)" class="service-dropdown close-mobile-menu"><span class="close-icon"></span></a>
-        <a href="servicio?s=plantillas" class="service-dropdown" data-dtarget="1-1">Diseño web con plantillas</a>
-        <a href="servicio?s=medida" class="service-dropdown" data-dtarget="1-2">Diseño web a medida</a>
-        <a href="servicio?s=tienda" class="service-dropdown" data-dtarget="1-3">Tienda online</a>
+        <a href="servicio?s=plantillas-web" class="service-dropdown" data-dtarget="1-1">Diseño web con plantillas</a>
+        <a href="servicio?s=diseno-a-medida" class="service-dropdown" data-dtarget="1-2">Diseño web a medida</a>
+        <a href="servicio?s=tienda-ecommerce" class="service-dropdown" data-dtarget="1-3">Tienda online</a>
+        <a href="servicio?s=paginas-aterrizaje-landing-page" class="service-dropdown" data-dtarget="1-7">Páginas de aterrizaje</a>
         <a href="servicio?s=minisitios" class="service-dropdown" data-dtarget="1-4">Mini sitios</a>
-        <a href="servicio?s=aplicaciones" class="service-dropdown" data-dtarget="1-5">Aplicaciones web</a>
-        <a href="servicio?s=mantenimiento" class="service-dropdown" data-dtarget="1-6">Mantenimientos</a>
+        <a href="servicio?s=aplicaciones-web" class="service-dropdown" data-dtarget="1-5">Aplicaciones web</a>
+        <a href="servicio?s=mantenimiento-web" class="service-dropdown" data-dtarget="1-6">Mantenimientos</a>
       </div>
       <div class="service-1-1 service">
         <div class="service-container">
@@ -160,6 +161,16 @@
             <span aria-hidden="true">&times;</span>
           </button>
           <a href="servicio?s=mantenimiento">Mantenimientos</a>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
+        </div>
+      </div>
+      <div class="service-1-7 service">
+        <div class="service-container">
+          <button type="button" class="close" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+          <a href="servicio?s=paginas-aterrizaje-landing-page">Paginas de aterrizaje</a>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
         </div>
@@ -333,7 +344,7 @@
       <div class="services-list">
         <a href="javascript:void(0)" class="service-dropdown close-mobile-menu"><span class="close-icon"></span></a>
         <a href="servicio?s=adwords" class="service-dropdown" data-dtarget="3-1">Google Adwords</a>
-        <a href="servicio?s=social" class="service-dropdown" data-dtarget="3-2">Redes sociales</a>
+        <a href="servicio?s=redes-sociales" class="service-dropdown" data-dtarget="3-2">Redes sociales</a>
         <a href="servicio?s=email" class="service-dropdown" data-dtarget="3-3">Email Marketing</a>
         <a href="servicio?s=negocio" class="service-dropdown" data-dtarget="3-4">Google Mi Negocio</a>
       </div>
@@ -352,7 +363,7 @@
           <button type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <a href="servicio?s=social">Redes sociales</a>
+          <a href="servicio?s=redes-sociales">Redes sociales</a>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
         </div>
@@ -482,7 +493,7 @@
             <span class="fab fa-instagram white-text mr-4"> </span>
           </a>
           <!-- whatsapp -->
-          <a class="li-ic" href="https://api.whatsapp.com/send?phone=541122895591">
+          <a class="li-ic" href="https://api.whatsapp.com/send?phone=541122895991">
             <span class="fab fa-whatsapp white-text"> </span>
           </a>
         </div>
@@ -491,5 +502,5 @@
   </nav>
 
   <div class="floating">
-    <button><span class="fab fa-whatsapp"></span><a href="https://api.whatsapp.com/send?phone=541122895591"></a></button>
+    <button><span class="fab fa-whatsapp"></span><a href="https://api.whatsapp.com/send?phone=541122895991"></a></button>
   </div>

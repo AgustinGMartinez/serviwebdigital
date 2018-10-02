@@ -35,6 +35,19 @@
   font-family: "FontAwesome";
 }
 
+.fa-instagram:hover::before {
+  color: #e4405f;
+}
+
+.fa-facebook:hover::before {
+  color: #3b5999;
+}
+
+.fa-whatsapp:hover::before {
+  color: #25D366;
+}
+
+
 
 .fa-heart::before {
   content: "\f004";

@@ -4,6 +4,12 @@
     height: 30em;
     position: relative;
 
+    &.no-height {
+      @include mdScreens {
+        height: auto !important;
+      }
+    }
+
     .bg {
       position: absolute;
       left: 0;
@@ -14,6 +20,15 @@
       background-size: cover;
       background-position: center;
       filter: brightness(60%);
+    }
+
+    video {
+      width: 100%;
+      margin-top: -3em;
+
+      @include mdScreens {
+        margin-top: 0;
+      }
     }
 
     .container {
@@ -31,12 +46,20 @@
           font-size: 2.5em;
         }
       }
+
+      p {
+        font-size: 1.5em;
+
+        @include mdScreens {
+          font-size: 1em;
+        }
+      }
     }
   }
 
   .info {
     position: relative;
-    padding: 3em 0;
+    padding: 3em 0 5em;
     background-color: $white;
     min-height: 40em;
 
@@ -45,16 +68,39 @@
       h2 {
         margin: 1em auto 1em;
       }
-      p {
 
+      p.description {
+        margin-bottom: 3em;
+      }
+
+      h5 {
+
+        span {
+          color: darken($tert, 5%);
+        }
+      }
+
+      ul.benefits {
+        display: block;
+        list-style-type: disc;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 40px;
+
+        .benefit {
+          list-style-type: initial;
+          line-height: 1.8;
+        }
       }
     }
 
     form {
       position: absolute;
       top: -10em;
-      width: 70%;
-      padding: 2em 1em;
+      width: 80%;
+      padding: 2em 1.5em;
       background-color: lighten($white, 5%);
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
