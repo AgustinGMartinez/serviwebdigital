@@ -128,7 +128,11 @@ header {
 
   @include smScreens {
     margin-left: 0;
-    margin-top: 5em;
+    margin-top: 65px;
+  }
+
+  &.wide {
+    margin-left: 0;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -208,4 +212,10 @@ header {
 ::-webkit-scrollbar-thumb
 {
 	background-color: #000000;
+}
+
+span.span-h4 {
+  font-family: "bebas neue";
+  letter-spacing: 1px;
+  font-size: 1.5rem;
 }

@@ -2,6 +2,10 @@ nav {
   max-width: 100vw;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
 	z-index: 10;
+
+  &.alternative {
+    
+  }
 }
 
 .reg-nav {
@@ -23,7 +27,7 @@ nav {
 
 	.navbar-brand {
 		img {
-			width: 175px;
+			width: 130px;
 		}
 	}
 }
@@ -164,7 +168,7 @@ nav .container .social {
 }
 
 .nav-container-mobile {
-  height: calc(100vh - 80px) !important;
+  height: calc(100vh - 65px) !important;
 }
 
 .menu-panel {

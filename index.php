@@ -10,17 +10,17 @@ if(isset($_SERVER['HTTP_ACCEPT_LANGUAGE']))
 
 switch ($lc) {
   case 'es':
-      header("location: es/home.php");
+      header("location: es/home");
       exit();
     break;
 
   case 'en':
-      header("location: en/home.php");
+      header("location: en/home");
       exit();
     break;
 
   default:
-      header("location: es/home.php");
+      header("location: es/home");
       exit();
     break;
 }

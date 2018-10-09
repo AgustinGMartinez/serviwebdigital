@@ -27,12 +27,17 @@ require('header.php'); ?>
           <div class="content">
             <h2 class="text-center"><?php echo $h1; ?></h2>
             <p class="description"><?php echo nl2br($description); ?></p>
-            <h5><span>Beneficios</span> de elegir <?php echo $h1; ?> con nosotros:</h5>
-            <ul class="benefits">
-              <?php if (!empty($benefits)) : foreach ($benefits as $benefit) : ?>
-                <li class="benefit"><?php echo $benefit; ?></li>
-              <?php endforeach; endif; ?>
-            </ul>
+            <?php if (!empty($benefits)) : ?>
+              <h5><span>Beneficios</span> de elegir <?php echo $h1; ?> con nosotros:</h5>
+              <ul class="benefits">
+                <?php foreach ($benefits as $i => $benefit) : ?>
+                  <li class="benefit"><?php echo $benefit; ?></li>
+                  <?php if ($i + 1 !== count($benefits)) : ?>
+                    <hr>
+                  <?php endif; ?>
+                <?php endforeach; ?>
+              </ul>
+            <?php endif; ?>
           </div>
         </div>
         <div class="col-md-5">

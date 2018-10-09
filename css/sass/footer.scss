@@ -4,6 +4,7 @@
   transform: translateY(50%);
   margin-top: -113px;
   position: relative;
+  z-index: 1;
 
   @include smScreens {
     margin-top: -9rem;
@@ -17,6 +18,7 @@
     top: 0;
     left: 0;
     background: $main;
+    background: linear-gradient(to right, $main, lighten($main, 8%), lighten($main, 8%));
 
     @include mdScreens {
       width: 100%;
@@ -107,9 +109,20 @@
 footer {
   padding: 8em 0 5px;
   background: $black;
+  position: relative;
 
   @include smScreens {
     padding: 8em 0 5px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    background: url('../img/footer-image.webp') no-repeat;
+    top: 112px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 112px);
   }
 
   h6 {

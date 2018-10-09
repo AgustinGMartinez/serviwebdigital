@@ -43,16 +43,16 @@
         <h6 class="text-uppercase font-weight-bold">Explorar</h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a href="#!">Home</a>
+          <a href="home">Home</a>
         </p>
         <p>
-          <a href="#!">Servicios</a>
+          <a href="home#sec-2">Servicios</a>
         </p>
         <p>
-          <a href="#!">Precios</a>
+          <a href="#!">Portafolio</a>
         </p>
         <p>
-          <a href="#!">Contacto</a>
+          <a href="home#contact">Contacto</a>
         </p>
 
       </div>

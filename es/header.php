@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
 <head>
-  <title><?php echo $title; ?></title>
-  <link rel="icon" href="../ico.ico" type="image/x-icon">
+  <title><?php echo $title; ?> | Serviweb Digital</title>
+  <link rel="icon" href="../favicon.ico" type="image/x-icon">
   <!-- METAS -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -23,7 +23,7 @@
     <link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
     <link rel="stylesheet" type="text/css" href="../vendor/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" type="text/css" href="../vendor/css/util.css">
-    <link rel="canonical" href="http://localhost/proyectos/serviwebdigital/es/home"/>
+    <link rel="canonical" href="https://www.serviwebdigital.com/es/home"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <?php endif; ?>
   <!-- Scripts -->
@@ -38,7 +38,7 @@
 <div class="fake-nav <?php if (!isset($isHome)) echo "shrink"; ?>"></div>
 
 <header>
-  <nav class="navbar-light nav flex-column reg-nav <?php if (!isset($isHome)) echo "shrink"; ?>">
+  <nav class="navbar-light nav flex-column reg-nav alternative <?php if (!isset($isHome)) echo "shrink"; ?>">
     <div class="container my-nav-wrapper d-flex">
         <a class="navbar-brand brand" href="home"><img src="../img/SWD.svg" alt="Logo Serviweb Digital"></a>
       <div class="menu" <?php if (!isset($isHome)) echo "style='display: none'"; ?>>
@@ -89,7 +89,7 @@
   </nav>
 </header>
 
-<div class="wrapper <?php if (!isset($isHome)) echo "expand"; ?>">
+<div class="wrapper <?php if (!isset($isHome)) echo "expand"; ?> wide">
 
   <div class="menu-panel menu-panel-1">
     <div class="panel-container">
@@ -343,17 +343,17 @@
     <div class="panel-container">
       <div class="services-list">
         <a href="javascript:void(0)" class="service-dropdown close-mobile-menu"><span class="close-icon"></span></a>
-        <a href="servicio?s=adwords" class="service-dropdown" data-dtarget="3-1">Google Adwords</a>
+        <a href="servicio?s=google-adwords" class="service-dropdown" data-dtarget="3-1">Google Adwords</a>
         <a href="servicio?s=redes-sociales" class="service-dropdown" data-dtarget="3-2">Redes sociales</a>
-        <a href="servicio?s=email" class="service-dropdown" data-dtarget="3-3">Email Marketing</a>
-        <a href="servicio?s=negocio" class="service-dropdown" data-dtarget="3-4">Google Mi Negocio</a>
+        <a href="servicio?s=email-marketing" class="service-dropdown" data-dtarget="3-3">Email Marketing</a>
+        <a href="servicio?s=google-mi-negocio" class="service-dropdown" data-dtarget="3-4">Google Mi Negocio</a>
       </div>
       <div class="service-3-1 service">
         <div class="service-container">
           <button type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <a href="servicio?s=adwords">Google Adwords</a>
+          <a href="servicio?s=google-adwords">Google Adwords</a>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
         </div>
@@ -373,7 +373,7 @@
           <button type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <a href="servicio?s=email">Email Marketing</a>
+          <a href="servicio?s=email-marketing">Email Marketing</a>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
         </div>
@@ -383,7 +383,7 @@
           <button type="button" class="close" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
-          <a href="servicio?s=negocio">Google Mi Negocio</a>
+          <a href="servicio?s=google-mi-negocio">Google Mi Negocio</a>
 
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque reprehenderit, a vitae totam consectetur amet veniam et cum laborum vero doloremque magni placeat. Praesentium excepturi saepe commodi ducimus dolorem, sapiente. Soluta error maxime dolore maiores. Itaque adipisci placeat deleniti odio.</p>
         </div>
@@ -447,7 +447,9 @@
 
     <a class="navbar-brand brand mr-auto" href="home"><img src="../img/SWDpq.svg" alt="Logo Serviweb Digital"></a>
 
-    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <a href="contacto" class="ml-auto btn btn-danger text-white">Cotizar</a>
+
+    <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <div id="nav-icon2">
         <span></span>
         <span></span>

@@ -40,7 +40,8 @@
   height: 225px;
   transform: translateY(50%);
   margin-top: -113px;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
   @media only screen and (max-width: 800px) {
     .suprafooter {
       margin-top: -9rem;
@@ -51,7 +52,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: #1eaea9; }
+    background: #1eaea9;
+    background: linear-gradient(to right, #1eaea9, #24d1cb, #24d1cb); }
     @media only screen and (max-width: 1200px) {
       .suprafooter .background {
         width: 100%; } }
@@ -117,10 +119,19 @@
 /* CUIDADO, ESTA todo DESORDENADO (CREO)*/
 footer {
   padding: 8em 0 5px;
-  background: #222222; }
+  background: #222222;
+  position: relative; }
   @media only screen and (max-width: 800px) {
     footer {
       padding: 8em 0 5px; } }
+  footer::before {
+    content: "";
+    position: absolute;
+    background: url("../img/footer-image.webp") no-repeat;
+    top: 112px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 112px); }
   footer h6 {
     letter-spacing: 3px !important; }
   footer *, footer footer a:visited {
@@ -153,7 +164,7 @@ nav {
   .mobile-nav .navbar-toggler {
     border-color: transparent; }
   .mobile-nav .navbar-brand img {
-    width: 175px; }
+    width: 130px; }
 
 nav .container {
   display: flex !important;
@@ -255,7 +266,7 @@ nav .container .social span {
     transition: transform 0.2s linear; }
 
 .nav-container-mobile {
-  height: calc(100vh - 80px) !important; }
+  height: calc(100vh - 65px) !important; }
 
 .menu-panel {
   width: 100%;
@@ -1440,7 +1451,9 @@ header {
   @media only screen and (max-width: 800px) {
     .wrapper {
       margin-left: 0;
-      margin-top: 5em; } }
+      margin-top: 65px; } }
+  .wrapper.wide {
+    margin-left: 0; }
   .wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5, .wrapper h6 {
     font-family: "bebas neue";
     letter-spacing: 1px; }
@@ -1497,5 +1510,10 @@ header {
 
 ::-webkit-scrollbar-thumb {
   background-color: #000000; }
+
+span.span-h4 {
+  font-family: "bebas neue";
+  letter-spacing: 1px;
+  font-size: 1.5rem; }
 
 /*# sourceMappingURL=main.css.map */
