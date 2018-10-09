@@ -59,12 +59,12 @@ function submitContactForm(e) {
 }
 
 // ADD ACTIVE CLASS TO CURRENT PAGE LINKS
-function activateLinks() {
-  if (typeof pageName !== "undefined") {
-    $('nav a[href=\'' + pageName + '\']').addClass("active");
-    $('nav a[href=\'' + pageName + '\']').parent().siblings().find($('a')).addClass("inactive");
-  }
-}
+// function activateLinks() {
+//   if (typeof pageName !== "undefined") {
+//     $('nav a[href=\'' + pageName + '\']').addClass("active");
+//     $('nav a[href=\'' + pageName + '\']').parent().siblings().find($('a')).addClass("inactive");
+//   }
+// }
 
 // FOR SCROLL EVENT ONLY
 function navExpansion() {
@@ -73,6 +73,12 @@ function navExpansion() {
     $('.reg-nav').addClass('shrink');
     $('.fake-nav').addClass('shrink');
     $('.wrapper').addClass('expand');
+    $('.wrapper').addClass('wide');
+    $('.reg-nav').removeClass('alternative');
+    $('.wrapper').removeClass('wide');
+    if (window.innerWidth > 800) {
+      $('.menu-panel').css('margin-left', '0');
+    }
     $('.menu').hide();
     $('.shrinkedMenu').show();
     $('.nav-icon3').removeClass("open");
@@ -80,8 +86,13 @@ function navExpansion() {
 
   function expand() {
     $('.reg-nav').removeClass('shrink');
+    $('.reg-nav').addClass('alternative');
     $('.fake-nav').removeClass('shrink');
     $('.wrapper').removeClass('expand');
+    $('.wrapper').addClass('wide');
+    if (window.innerWidth > 800) {
+      $('.menu-panel').css('margin-left', '250px');
+    }
     $('.shrinkedMenu').hide();
     if($('.menu').is(':hidden')) $('.menu').fadeIn(1700);
   }
@@ -105,6 +116,9 @@ function navExpansionForced() {
     $('.reg-nav').removeClass('shrink');
     $('.fake-nav').removeClass('shrink');
     $('.wrapper').removeClass('expand');
+    if ($('.wrapper').hasClass('wide')) {
+      $('.wrapper').removeClass('wide');
+    }
     $('.menu').fadeIn(1700);
     $('.shrinkedMenu').hide();
   }
@@ -172,12 +186,20 @@ function closeMenuProperly() {
 
 // MENU WITH SERVICES
 function triggerMenuPanel(id){
-
+  // keep track of window position in order to close the menu if later scrolled
   var position = $(window).scrollTop();
 
-  $('.menu-panel-'+id).show().on('mouseleave', function() {
-    closeMenuProperly();
-  });
+  // show different animations for menu panel depending on device
+  if (window.innerWidth > 800) {
+    $('.menu-panel-'+id).show().on('mouseleave', function() {
+      closeMenuProperly();
+    });
+  } else {
+    $('.menu-panel-'+id).slideDown().on('mouseleave', function() {
+      closeMenuProperly();
+    });
+  }
+
   // hide panel when mouse is over other menu options
   $('.not-menu').on('mouseenter', function() {
     closeMenuProperly();

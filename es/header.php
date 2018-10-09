@@ -449,7 +449,7 @@
 
     <a href="contacto" class="ml-auto btn btn-danger text-white">Cotizar</a>
 
-    <button class="navbar-toggler ml-3" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <div id="nav-icon2">
         <span></span>
         <span></span>

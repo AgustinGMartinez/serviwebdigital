@@ -4,7 +4,10 @@ nav {
 	z-index: 10;
 
   &.alternative {
-    
+
+     a, a:visited {
+      color: white !important;
+    }
   }
 }
 
@@ -179,6 +182,11 @@ nav .container .social {
   position: fixed;
   z-index: 9999;
   top: 0;
+  margin-left: 250px;
+
+  @include smScreens {
+    margin-left: 0;
+  }
 
   @include dfScreens {
     background: rgba(0,0,0,0.3);

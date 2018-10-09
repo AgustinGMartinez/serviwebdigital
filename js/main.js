@@ -1,7 +1,21 @@
 $(document).ready(function(){
+// show content and hide prolader
 $('#preloader').hide();
 $('.wrapper').fadeIn();
 $('header').fadeIn();
+// adjust menu if page is loaded at some part lower than the start
+if ($(document).scrollTop() > 200 && typeof pageName !== 'undefined' && pageName == "home.php") {
+  $('.reg-nav').removeClass('alternative');
+  $('.wrapper').removeClass('wide');
+}
+// adjust panel display options while rezising
+document.addEventListener('rezise', function() {
+  if ($(document).scrollTop() > 200 && typeof pageName !== 'undefined' && pageName == "home.php") {
+    $('.reg-nav').removeClass('alternative');
+    $('.wrapper').removeClass('wide');
+  }
+})
+// init AOS animations
 if (typeof AOS !== 'undefined') AOS.init();
 $('.portfolio-info').each(function(){
   var attr = $(this).attr('data-direction');
@@ -89,7 +103,7 @@ $('.nav-icon3').on("click", navExpansionForced);
 //form Handler
 $('#submitContactForm').on("click", submitContactForm);
 // nav animation on scroll
-window.setTimeout(attachWindowScrollEvent, 5000);
+window.setTimeout(attachWindowScrollEvent, 3000);
 function attachWindowScrollEvent() {
   $(window).scroll(navExpansion);
 }
