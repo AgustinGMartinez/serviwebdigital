@@ -1,0 +1,390 @@
+[09-Nov-2018 17:13:24 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: e977f692-e45b-11e8-af33-51612fa5745a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[09-Nov-2018 17:13:24 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: e9b1f1b5-e45b-11e8-b17f-99ae563abdc7
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[09-Nov-2018 17:15:09 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 2838b87a-e45c-11e8-a546-5f8a085dd362
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[09-Nov-2018 17:15:10 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 287dfe5b-e45c-11e8-8cb9-01636872869a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[09-Nov-2018 17:34:40 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: e20139ec-e45e-11e8-be01-d34493e6e20a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[09-Nov-2018 17:34:40 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: e239610c-e45e-11e8-8313-33bbd267ea57
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[09-Nov-2018 17:37:24 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 43be2212-e45f-11e8-b028-334d6eef2733
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[09-Nov-2018 17:37:24 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 43f9a3e7-e45f-11e8-8fda-c11e4a518645
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 19:25:56 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 3fe2f4d2-ed13-11e8-9925-0f7ad862aacf
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 19:25:57 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 401d3f0f-ed13-11e8-9096-77c91e7d0145
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 19:26:13 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 49c74e5b-ed13-11e8-8437-d9bf78bf464a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 19:26:13 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 49ffc390-ed13-11e8-b9a8-af0814d2f122
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 20:27:25 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: d6ca44b2-ed1b-11e8-82e7-cd60716e8cd8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 20:27:26 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: d7015a1a-ed1b-11e8-85a9-0d6d1d4cf12a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 20:28:44 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 05de1e47-ed1c-11e8-a8fc-e3ca6a9d3cf5
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 20:28:45 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 0616e0fb-ed1c-11e8-a64f-71b013097b93
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 20:40:51 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: b6c023c4-ed1d-11e8-a43d-0fdc80e18467
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 20:40:51 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: b6f95c4b-ed1d-11e8-a953-670b50c87d84
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 20:53:56 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 8b1924e7-ed1f-11e8-b87a-07d97f3145ba
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 20:53:57 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 8b51256e-ed1f-11e8-b18b-73e3b5b19ed7
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:22:00 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 76ba9ead-ed23-11e8-a180-7588b753974e
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:22:01 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 76f3fe0f-ed23-11e8-b7d3-b174e90c749c
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:35:31 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 59cdc32c-ed25-11e8-88ae-35069f6ee0e4
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:35:31 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5a08d03b-ed25-11e8-a92b-17bb6094cb53
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:36:00 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 6b2e76f0-ed25-11e8-ad32-319417534f82
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:36:00 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 6b714bb3-ed25-11e8-a82d-b30f7e56a42e
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:57:46 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 75caf505-ed28-11e8-ba79-8979ddea9177
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:57:47 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 760e17f9-ed28-11e8-990c-a9c436a1dca9
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:58:09 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 836e03e6-ed28-11e8-9865-23bec24f7991
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[20-Nov-2018 21:58:09 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 83a826b5-ed28-11e8-bf21-cb5634e76c56
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 15:34:58 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 7ac839bb-ef4e-11e8-ab17-1fc5bc01328e
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 15:34:58 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 7aff774b-ef4e-11e8-ba2e-5f3b9c8f60cb
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:09:50 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5a174b12-ef53-11e8-a3d2-3bb128dd9a79
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:09:51 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5a51948c-ef53-11e8-bda5-ab7829d770f2
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:22:04 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 0f8764db-ef55-11e8-863a-eb4b6feee6a7
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:22:05 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 0fc335a6-ef55-11e8-aade-774c9a62c831
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:35:04 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: e021135d-ef56-11e8-bdee-9d1910f7e77a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:35:04 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: e059fe33-ef56-11e8-8eec-6fd44439298a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:48:13 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: b6632003-ef58-11e8-8b3a-578fc413521a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:48:13 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: b6a83f77-ef58-11e8-a8fc-e3ca6a9d3cf5
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:55:04 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: abbe403f-ef59-11e8-a5b8-a11683680ae8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 16:55:05 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: abf8b14a-ef59-11e8-a5b8-a11683680ae8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 17:04:23 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: f8980f24-ef5a-11e8-a912-9d8de1924bfd
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 17:04:23 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: f8cefe0c-ef5a-11e8-af42-538c3ba4277f
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 17:14:19 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5c34be29-ef5c-11e8-be58-8fc62d3cb829
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 17:14:20 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5c6e1d9f-ef5c-11e8-a8a8-f157e636a20d
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 17:21:02 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 4c014aec-ef5d-11e8-9925-0f7ad862aacf
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 17:21:02 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 4c4271a5-ef5d-11e8-ac3e-5dd9eaf6d190
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 17:24:22 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: c3b0a1eb-ef5d-11e8-aade-774c9a62c831
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[23-Nov-2018 17:24:23 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: c3ec24e6-ef5d-11e8-83a2-15a8cb5adfb3
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 09:51:44 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 0769d326-f17a-11e8-b67b-0b51713b55f3
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 09:51:45 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 079eed41-f17a-11e8-a6df-691e94d189eb
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 09:53:08 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 3949ec64-f17a-11e8-a49c-d1a93da587e8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 09:53:08 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 39874307-f17a-11e8-940f-e3ab473d8bba
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 10:07:42 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 420e92dc-f17c-11e8-b479-5796b2d05403
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 10:07:42 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 424b25f0-f17c-11e8-8aaf-f93876b129c5
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 10:47:30 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: d18b1bf4-f181-11e8-94c5-0b3fc8392644
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 10:47:30 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: d1c42d62-f181-11e8-94c5-0b3fc8392644
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 10:51:30 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 608324fa-f182-11e8-a49c-d1a93da587e8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Nov-2018 10:51:30 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 60ba3b5e-f182-11e8-9480-4b50cd54f537
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[27-Nov-2018 17:39:32 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 8a2b52e2-f284-11e8-90fd-13f4249f4fb1
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[27-Nov-2018 17:39:32 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 8b6bc2c6-f284-11e8-b479-5796b2d05403
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[28-Nov-2018 16:37:11 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 0029ea18-f345-11e8-a1fe-156009efee2c
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[28-Nov-2018 16:37:12 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 0066f3b7-f345-11e8-8dc7-7be46cf4d255
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[28-Nov-2018 16:39:26 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5052da21-f345-11e8-a64f-71b013097b93
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[28-Nov-2018 16:39:26 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 508b012b-f345-11e8-a827-c73ce1c1c777
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[28-Nov-2018 16:41:36 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 9dd4292d-f345-11e8-94b9-777a3345fb36
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[28-Nov-2018 16:41:36 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 9e0e4c27-f345-11e8-b930-9367a350b5e9
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 20:02:09 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 762c1e6d-f74f-11e8-88ae-35069f6ee0e4
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 20:02:09 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 7661386d-f74f-11e8-8e8b-57aecbffee8f
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 20:44:47 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 6ac97ae5-f755-11e8-9cbd-e7986c3b7e61
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 20:44:47 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 6b017aaf-f755-11e8-9b6d-c572c242ea53
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 20:55:06 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: dbc94937-f756-11e8-a5b8-a11683680ae8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 20:55:06 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: dc076468-f756-11e8-b7d3-b174e90c749c
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 21:10:43 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 0a98b499-f759-11e8-a629-2384f64c4004
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 21:10:44 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 0acf554a-f759-11e8-afbf-49b8cbde7f6f
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 21:14:27 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 8fc89ff7-f759-11e8-a8fc-e3ca6a9d3cf5
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 21:14:27 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 90044901-f759-11e8-8711-839f58257112
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 21:27:48 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 6d3dc7d4-f75b-11e8-b978-d14e5e1a3306
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 21:27:48 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 6d779c93-f75b-11e8-a860-19b4b96892c8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 21:40:51 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 404eb857-f75d-11e8-853f-812678b3095c
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 21:40:52 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 408e806b-f75d-11e8-a953-670b50c87d84
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 22:02:47 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 50c6d8d1-f760-11e8-9398-4d48584401b5
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 22:02:48 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5100ad94-f760-11e8-9398-4d48584401b5
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 22:03:26 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 6774a9f9-f760-11e8-8b0f-ebcf36753b20
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[03-Dec-2018 22:03:26 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 67b27626-f760-11e8-9040-1325b4bd1ae8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 13:45:14 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 223c642e-fd64-11e8-a4f8-1b2009b88919
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 13:45:15 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 2275eaeb-fd64-11e8-ab08-270d9418372f
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 13:45:47 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 35ed218a-fd64-11e8-abce-4b0fca7490b8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 13:45:48 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 362e9784-fd64-11e8-bd74-d1d5f9221c1b
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 13:46:47 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5977cb02-fd64-11e8-a0a9-ff1cd064fde4
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 13:46:47 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 59ada81b-fd64-11e8-89ed-55e59f3de2e6
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 14:26:51 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: f290817a-fd69-11e8-a2cb-0bc9496dce54
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 14:26:52 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: f2c992d3-fd69-11e8-97ba-b13d2ddcc65d
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 14:28:54 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 3bd510da-fd6a-11e8-991a-a1bce33202ea
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 14:28:55 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 3c0b1510-fd6a-11e8-9595-9148984be58c
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 14:32:23 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: b80eac11-fd6a-11e8-8e24-df6ea91350f8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 14:32:23 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: b84c9fb7-fd6a-11e8-b312-4db6a81ff322
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 14:34:04 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: f47578d2-fd6a-11e8-ab78-172cc847f6d4
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[11-Dec-2018 14:34:04 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: f4ad51bc-fd6a-11e8-8eb7-33435fe223c8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[19-Dec-2018 15:18:08 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 6faeaf24-03ba-11e9-836b-a921cd22e4c8
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[19-Dec-2018 15:18:08 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 6ff10f2d-03ba-11e9-ad28-a1c9b41afbef
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[21-Dec-2018 16:33:11 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 403d8dd3-0557-11e9-9a78-f9a2fa479b1a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[21-Dec-2018 16:33:11 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 407629c0-0557-11e9-aeb8-173ab8cdc652
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[21-Dec-2018 16:34:00 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5d75b750-0557-11e9-a4ff-2ff749a3ff2c
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[21-Dec-2018 16:34:00 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 5dac09fd-0557-11e9-b59f-3fdd4bfe5659
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 14:38:46 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 01b91ca8-4fee-11e9-b792-752731eb7dfb
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 14:38:46 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity gmail.com is invalid. Must be a verified email address or domain.
+Request Id: 01f058db-4fee-11e9-b2e3-710f987a623a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 14:50:00 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 93705034-4fef-11e9-94ef-b1a8bbd9943e
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 14:50:00 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 93a8025f-4fef-11e9-bad5-a35fee81bb47
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 14:56:35 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 7f05ea1f-4ff0-11e9-af2e-d7f84f87b204
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 14:56:35 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 7f3adc5a-4ff0-11e9-a138-034987dae655
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 15:01:49 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 3a7c2da2-4ff1-11e9-8189-1fa1b8b99437
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 15:01:50 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 3aaf4c18-4ff1-11e9-a5ce-ed11e29c65d9
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 15:06:31 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: e2143b2e-4ff1-11e9-b01e-e38f18b486db
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 15:06:31 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: e252cae1-4ff1-11e9-b45f-a5b48959eabc
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 15:12:30 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: b81478bc-4ff2-11e9-96c3-2d6a0fb5ed9c
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[26-Mar-2019 15:12:30 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: b84d62fb-4ff2-11e9-942a-8d8822134a99
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[29-Mar-2019 16:37:46 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 20fd0dfa-525a-11e9-8075-a5f1e8ca6a52
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[29-Mar-2019 16:37:46 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 213582b9-525a-11e9-bad5-a35fee81bb47
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[04-Apr-2019 14:02:18 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 674dc27a-56fb-11e9-8c92-09102db23821
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[04-Apr-2019 14:02:18 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 67817d12-56fb-11e9-8d22-1377af6fb81a
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[04-Apr-2019 14:32:58 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: b073aa0e-56ff-11e9-8075-a5f1e8ca6a52
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[04-Apr-2019 14:32:59 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: b0a911e4-56ff-11e9-ac39-6f8bf9f4edb3
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[05-Apr-2019 11:12:18 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: d23ff8be-57ac-11e9-954b-31b152a1a0fd
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[05-Apr-2019 11:12:18 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: d27931e0-57ac-11e9-980f-c1db761690a4
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[05-Apr-2019 14:57:39 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 4d6e26cf-57cc-11e9-bfde-854707ff76c5
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[05-Apr-2019 14:57:39 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: 4d9e5ded-57cc-11e9-a276-fb5e3e228d42
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[05-Apr-2019 18:01:27 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: fab369ea-57e5-11e9-bc17-5bc859ce8582
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
+[05-Apr-2019 18:01:28 America/Argentina/Buenos_Aires] PHP Warning:  SimpleEmailService::SetIdentityNotificationTopic(): Sender - InvalidParameterValue: Identity mctecno.com is invalid. Must be a verified email address or domain.
+Request Id: fae5c4c9-57e5-11e9-93ea-d7f324ddad28
+ in /home/serviweb/public_html/sendy/includes/helpers/ses.php on line 540
